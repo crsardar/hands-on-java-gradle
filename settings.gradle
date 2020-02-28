@@ -1,0 +1,6 @@
+rootProject.name = 'hands-on-java-gradle'
+include 'rabbit-mq:rabbit-mq-producer'
+findProject(':rabbit-mq:rabbit-mq-producer')?.name = 'rabbit-mq-producer'
+include 'rabbit-mq:rabbit-mq-consumer'
+findProject(':rabbit-mq:rabbit-mq-consumer')?.name = 'rabbit-mq-consumer'
+
