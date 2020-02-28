@@ -1,0 +1,12 @@
+.git/
+.idea/
+.gradle/
+.idea/
+**/logs
+**/target
+**/generated
+**/out
+**/local-experiments
+*.iml
+*.class 
+/.metadata/
