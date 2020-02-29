@@ -6,6 +6,7 @@
 **/target
 **/generated
 **/out
+**/build
 **/local-experiments
 *.iml
 *.class 

@@ -3,4 +3,8 @@ include 'rabbit-mq:rabbit-mq-producer'
 findProject(':rabbit-mq:rabbit-mq-producer')?.name = 'rabbit-mq-producer'
 include 'rabbit-mq:rabbit-mq-consumer'
 findProject(':rabbit-mq:rabbit-mq-consumer')?.name = 'rabbit-mq-consumer'
+include 'rabbit-mq:rabbit-mq-hello-world'
+findProject(':rabbit-mq:rabbit-mq-hello-world')?.name = 'rabbit-mq-hello-world'
+include 'rabbit-mq:rabbit-mq-hello-world'
+findProject(':rabbit-mq:rabbit-mq-hello-world')?.name = 'rabbit-mq-hello-world'
 
